@@ -46,7 +46,7 @@ body {
     font-family: 'Outfit', sans-serif;
 }
 
-#bottom {
+#info {
     display: flex;
     justify-content: space-between;
     width: 89%;
