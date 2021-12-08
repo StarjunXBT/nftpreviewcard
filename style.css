@@ -1,6 +1,71 @@
+html {
+    font-size: 16px;
+}
+body {
+    background-color: hsl(217, 54%, 11%);
+}
+
 .attribution { 
     font-size: 11px; text-align: center; 
 }
 .attribution a { 
     color: hsl(228, 45%, 44%); 
+}
+
+
+#nft-card {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: hsl(216, 50%, 16%);
+    padding: 30px;
+    align-items: center;
+    width: 340px;
+    height: 650px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+#equilibrium {
+    width: 89%;
+    border-radius: 10px;
+}
+#nftid {
+    width: 89%;
+}
+#nft-name {
+    color: hsl(0, 0%, 100%);
+    font-family: 'Outfit', sans-serif;
+}
+#nft-desc {
+    color : hsl(215, 51%, 70%);
+    font-family: 'Outfit', sans-serif;
+}
+#price {
+    color: hsl(178, 100%, 50%);
+    font-family: 'Outfit', sans-serif;
+}
+
+#bottom {
+    display: flex;
+    justify-content: space-between;
+    width: 89%;
+}
+#day {
+    color: hsl(215, 51%, 70%);
+    font-family: 'Outfit', sans-serif;
+}
+
+#price, #day {
+    display: inline-block;
+}
+
+#whois {
+    color: hsl(215, 51%, 70%);
+    font-family: 'Outfit', sans-serif;
+}
+
+#author {
+    color: hsl(0, 0%, 100%);
+    font-family: 'Outfit', sans-serif;
 }
