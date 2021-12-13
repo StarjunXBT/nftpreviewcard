@@ -30,6 +30,9 @@ body {
     width: 90%;
     border-radius: 15px;
 }
+#equilibrium:hover {
+    background: url('images/icon-view.svg');
+}
 #nftid {
     width: 90%;
 }
@@ -74,10 +77,18 @@ body {
     color: hsl(0, 0%, 100%);
     font-family: 'Outfit', sans-serif;
 }
+#author:hover {
+    color: hsl(178, 100%, 50%);
+}
 
 #avatar {
     width: 30px;
     height: 30px;
     border-radius: 50%;
     border: 1px solid hsl(0, 0%, 100%);;
+}
+
+#txtbottom {
+    float: right;
+    margin: 10px;
 }
