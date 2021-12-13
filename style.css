@@ -19,9 +19,9 @@ body {
     flex-direction: column;
     justify-content: space-around;
     background-color: hsl(216, 50%, 16%);
-    padding: 20px;
+    padding: 24px;
     align-items: center;
-    width: 400px;
+    width: 350px;
     height: 600px;
     border: none;
     border-radius: 15px;
@@ -31,12 +31,11 @@ body {
     border-radius: 15px;
 }
 #nftid {
-    width: 95%;
+    width: 90%;
 }
 #nft-name {
     color: hsl(0, 0%, 100%);
     font-family: 'Outfit', sans-serif;
-    width: 95%;
 }
 #nft-desc {
     color : hsl(215, 51%, 70%);
@@ -50,8 +49,8 @@ body {
 #info {
     display: flex;
     justify-content: space-between;
-    width: 89%;
-    border-bottom: solid 1px hsl(215, 51%, 70%);
+    width: 90%;
+    border-bottom: solid 0.1px hsl(215, 51%, 70%);
 }
 #day {
     color: hsl(215, 51%, 70%);
@@ -80,4 +79,5 @@ body {
     width: 30px;
     height: 30px;
     border-radius: 50%;
+    border: 1px solid hsl(0, 0%, 100%);;
 }
